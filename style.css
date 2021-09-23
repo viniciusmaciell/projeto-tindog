@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+#title {
+  background-color: #FF4C68;
+  color: white;
+  padding: 5% 15% 0 15%;
+  text-align: center;
+  z-index:0;
+}
+.h1-title {
+    line-height: 6rem;
+    font-size: 3.5rem;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 992px){
+.iphone-6 {
+    transform:rotate(25deg);
+    z-index: 0;
+    height: 45rem;
+}
+#features {
+    background-color:white;
+    position: relative;
+    top: -4rem;
+    margin: auto;
+}
+}
+.features-content{
+    padding:10% 5%;
+}
+#testimonials {
+    background-color: #EF8172;
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+}
+.testimonials-img {
+    border-radius: 100%;
+    width: 10%;
+}
+#pricing {
+    text-align: center;
+    padding: 5%;
+}
+.pricing-txt {
+    margin: 5%;
+}
+#press {
+    background-color: #EF8172;
+}
+
+#cta {
+    text-align: center;
+    padding: 15% 0 15% 0;
+    background-color: #FF4C68;
+}
+#footer {
+    text-align: center;
+    padding: 10%;
+}
+.features-img {
+    filter: invert(72%) sepia(37%) saturate(4677%) hue-rotate(317deg) brightness(107%) contrast(87%);
+    width: 30%;
+    padding:5%;
+}
+.apple-brand {
+    max-width: 20%;
+    filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+    padding-bottom: .5rem;
+}
+.google-play-brand {
+    max-width: 25%;
+}
+.features-section {
+    z-index: 2;
+}
+.font-secondary {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tindog-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+.card-price {
+    font-size: 3rem;
+    padding-top: 3%;
+}
+.find-us-section {
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 5%;
+    margin: 0 15%;
+}
+.social-media-footer {
+    width: 1rem;
+}
